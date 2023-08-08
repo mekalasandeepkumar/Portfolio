@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandeep Kumar Mekala</title>
+    <link rel="icon" type="images/x-icon" href="images/portfolio.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9449700d07.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo_1.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i
+              class="fa-sharp fa-solid fa-circle-xmark"
+              onclick="closemenu()"
+            ></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Web Developer</p>
+          <h1>
+            Hi, I'm <span>Sandeeep Kumar</span><br />
+            Mekala from India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------about-------------------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user1.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi, I'm Sandeep Kumar Mekala. I am highly proficient in Front-End
+              Development, utilizing HTML5, Cascading Style Sheets (CSS3),
+              Bootstrap, Advanced JavaScript, and React.js. Additionally, I
+              possess strong skills in Back-End Development using Node.js &
+              MySQL, and I'm familiar with Git and GitHub. I have completed
+              several Frontend development projects and continuously strive to
+              expand my knowledge with emerging technologies
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="table-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Front-End</span><br />HTML ,CSS ,JavaScript ,Bootstrap &
+                  ReactJS
+                </li>
+                <li>
+                  <span>Programming Languages</span><br />C-Language & Python
+                </li>
+                <li><span>Database</span><br />SQL,MySQL & MongoDB</li>
+                <li>
+                  <span>Version Control</span><br />
+                  Git & GitHub.
+                </li>
+                <li>
+                  <span>API's</span><br />
+                  Basic's of API Integration and Development
+                </li>
+              </ul>
+            </div>
+
+            <div class="table-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Web Development Internship</span><br />Completed an
+                  8-week online training on Web Development through Internshala
+                  Internship's comprehensive program. This intensive training
+                  covered essential front-end technologies such as HTML, CSS,
+                  JavaScript, and Bootstrap, equipping me with a strong
+                  foundation in building responsive and visually appealing web
+                  applications
+                </li>
+                <li>
+                  <span>Spotify Clone</span><br />As a passionate and dedicated
+                  software engineer, I possess extensive experience in front-end
+                  development, specializing in the creation of user-friendly
+                  interfaces and web applications. My proficiency in HTML, CSS,
+                  and JavaScript has allowed me to bring creativity and
+                  functionality to various projects.
+                </li>
+                <li>
+                  <span>Sequencer</span><br />From September 2019 to August
+                  2020, I served as a Neem Trainee at Hyundai Glovis Anantapur
+                  Pvt. Ltd., part of SBBMT Contract Basic. During this period, I
+                  gained invaluable hands-on experience in the automotive
+                  industry. My primary responsibility involved efficiently
+                  dispatching car parts through the assembly area, ensuring that
+                  they were delivered in the exact order required for the
+                  production process.
+                </li>
+              </ul>
+            </div>
+
+            <div class="table-contents" id="education">
+              <ul>
+                <li><span>Bachelor of Technology in Civil Engineering</span><br />Annamacharya Institute of technology and science ,Rajampet From-2020-2023</li>
+                <li>
+                  <span>Diploma In Civil Engineering</span><br /> Government Polytechnic Uravakonda From-2015-2019
+                </li>
+                <li>
+                  <span>SCC (High School)</span><br />Z.P High School Mopidi - 2015
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------------services------------------------------------------------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Front-End</h2>
+            <p>
+              I proudly showcase my expertise in Front-End Development,
+              utilizing HTML5, Cascading Style Sheets (CSS3), Bootstrap, and
+              Advanced JavaScript. With a keen eye for design and user
+              experience, I create captivating and responsive user interfaces
+              that enhance the overall web application's visual appeal and
+              functionality.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Back-End</h2>
+            <p>
+              I specialize in Back-End Development, employing Node.js to build
+              scalable and efficient server-side applications. Leveraging my
+              knowledge of backend technologies, I create robust APIs and ensure
+              seamless data flow between the server and the frontend,
+              contributing to the smooth functioning of web applications.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Database</h2>
+            <p>
+              As a skilled developer, I am well-versed in database management,
+              particularly MySQL and MongoDB. My expertise in structuring and
+              querying databases allows for secure data storage and retrieval,
+              optimizing the performance and reliability of web applications.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------portfolio----------------------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work1.png" />
+            <div class="layer">
+              <h3>Tribute page</h3>
+              <p>
+                I have created my first tribute web page for Pawan Kalyan
+                Konidela. It is built with HTML and CSS, and it celebrates his
+                life and achievements. I hope you enjoy visiting my tribute page
+                for Pawan Kalyan Konidela.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work2.png" />
+            <div class="layer">
+              <h3>Starbucks Landing Page</h3>
+              <p>
+                I have expertly designed and developed a captivating Starbuck
+                landing homepage using HTML and CSS, showcasing my skills in web
+                development and design. The page features a seamless user
+                experience, eye-catching visuals, and responsive layout,
+                demonstrating my ability to create engaging and functional web
+                interfaces.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work3.png" />
+            <div class="layer">
+              <h3>Portfolio Landing Home Page</h3>
+              <p>
+                I have meticulously crafted a dynamic Portfolio Landing homepage
+                using HTML and CSS, showcasing my proficiency in web development
+                and design.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work4.png" />
+            <div class="layer">
+              <h3>My Services</h3>
+              <p>
+                I have skillfully designed a comprehensive Services webpage
+                using HTML and CSS, highlighting my expertise in web
+                development.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work5.png" />
+            <div class="layer">
+              <h3>Travel Page</h3>
+              <p>
+                I have successfully designed a captivating and responsive
+                travel-page using HTML, CSS, and Bootstrap. This project
+                demonstrates my skills in web development and design, as well as
+                my ability to create visually appealing and user-friendly
+                interfaces. The travel-page showcases my dedication to crafting
+                immersive online experiences for users in the travel industry.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work6.png" />
+            <div class="layer">
+              <h3>Spotify Clone</h3>
+              <p>
+                I have meticulously developed a Spotify clone using HTML, CSS,
+                and JavaScript, showcasing my expertise in web development and
+                programming. This project demonstrates my ability to create
+                interactive and functional web applications, replicating the
+                popular music streaming platform's features and design. The
+                Spotify clone exhibits my dedication to building innovative and
+                engaging digital experiences for users.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!--------------------------------------contact------------------------------------>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> sandeep022000@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i><a href="#"></a>+91-7729819987
+            </p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/sandeep-kumar-mekala-3721281a0"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://twitter.com/sandeep022000?s=09"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.instagram.com/msandeepkumar4/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100021912586546&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <a href="images/SandeepCV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="conatct-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 By Sandeep Kumar Mekala</p>
+      </div>
+    </div>
+    <!-- --------------------------------------services------------------------------------------------ -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("table-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenus = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenus.style.right = "0";
+      }
+      function closemenu() {
+        sidemenus.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzKUCcAQ0jlJoWfcFl5EIxcNGLbqxTXiSs3w4bWoOCa7DV71N3_0yyTDdazyMd_WDReDg/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
